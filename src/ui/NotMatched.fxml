@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="bg" prefHeight="232.0" prefWidth="419.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.NotMatchedController">
+   <children>
+      <ImageView fitHeight="235.0" fitWidth="419.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@back.png" />
+         </image>
+      </ImageView>
+      <Text fill="#0a3232" layoutX="82.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Re-type password correctly" textAlignment="CENTER" wrappingWidth="281.044921875">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <JFXButton fx:id="ok" buttonType="RAISED" layoutX="172.0" layoutY="166.0" onAction="#clicked" prefHeight="32.0" prefWidth="95.0" style="-fx-background-color: #009688;" text="OK" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <Text fill="#bf1818" layoutX="134.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Passwords do not match">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="48.0" fitWidth="58.0" layoutX="78.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@alert.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

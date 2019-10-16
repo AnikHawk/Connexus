@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1100.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.homeController">
+   <children>
+      <ImageView fitHeight="777.0" fitWidth="1262.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@back.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="187.0" fitWidth="191.0" layoutX="884.0" layoutY="553.0" opacity="0.83" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="texting" buttonType="RAISED" layoutX="483.0" layoutY="322.0" onMouseClicked="#Action_Texting" prefHeight="52.0" prefWidth="147.0" style="-fx-background-color: #009688;" text="Get Connected" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="59.0" fitWidth="71.0" layoutX="515.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@home.png" />
+         </image>
+      </ImageView>
+      <Text fill="#118a8a" layoutX="529.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home" underline="true" wrappingWidth="100.51708984375">
+         <font>
+            <Font name="Book Antiqua Bold" size="17.0" />
+         </font>
+      </Text>
+      <JFXButton fx:id="logout" buttonType="RAISED" layoutX="483.0" layoutY="411.0" onAction="#Action_logout" onMouseClicked="#Action_Texting" prefHeight="52.0" prefWidth="147.0" style="-fx-background-color: #009688;" text="Log Out" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
